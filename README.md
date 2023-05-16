@@ -1,9 +1,12 @@
 # Problem Statement
 
 Create a simple file based one table database. It should be a simple text file which holds one table.
+
 The metadata about the table, the names of the columns and the types of the columns should be in a
 different table file.
+
 Support integers and character data types for now.
+
 Whenever the user creates a table, the syntax will be of the form CREATE TABLE ( col1 INTEGER, col2 STRING,....).
 It can have any number of columns. This query will be parsed and info stored in the metadata file.
 
